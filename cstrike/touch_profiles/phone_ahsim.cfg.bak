@@ -1,0 +1,72 @@
+//=======================================================================
+//	Copyright SDLash3D team & XashXT group 2025 ©
+//			touchscreen config
+//=======================================================================
+
+touch_config_file "touch_profiles/phone_ahsim.cfg"
+
+// touch cvars
+
+// sensitivity settings
+touch_pitch "90.000000"
+touch_yaw "120.000000"
+touch_forwardzone "0.060000"
+touch_sidezone "0.060000"
+touch_nonlinear_look "0"
+touch_pow_factor "1.300000"
+touch_pow_mult "400.000000"
+touch_exp_mult "0.000000"
+
+// grid settings
+touch_grid_count "100"
+touch_grid_enable "1"
+
+// global overstroke (width, r, g, b, a)
+touch_set_stroke 1 156 77 20 200
+
+// highlight when pressed
+touch_highlight_r "1.000000"
+touch_highlight_g "1.000000"
+touch_highlight_b "1.000000"
+touch_highlight_a "1.000000"
+
+// _joy and _dpad options
+touch_dpad_radius "1.000000"
+touch_joy_radius "1.000000"
+
+// how much slowdown when Precise Look button pressed
+touch_precise_amount "0.500000"
+
+// enable/disable move indicator
+touch_move_indicator "0"
+
+// reset menu state when execing config
+touch_setclientonly 0
+
+// touch buttons
+touch_removeall
+touch_addbutton "look" "" "_look" 0.560000 0.133333 1.000000 0.977778 255 255 255 255 0
+touch_addbutton "move" "" "_move" 0.140000 0.266667 0.540000 0.977778 255 255 255 255 0
+touch_addbutton "drop" "gfx/buttons/drop" "drop" 0.940000 0.085333 1.000000 0.213333 255 255 255 76 0
+touch_addbutton "menu" "gfx/buttons/pause" "escape" 0.600000 0.000000 0.660000 0.128000 255 255 255 76 0
+touch_addbutton "attack2" "gfx/buttons/attack2" "+attack2" 0.700000 0.000000 0.820000 0.256000 255 255 255 63 0
+touch_addbutton "cmd" "touch_default/map.tga" "exec touch/cmd/cmd" 0.520000 0.000000 0.580000 0.133333 255 255 255 0 8
+touch_addbutton "macro" "gfx/buttons/macro" "+attack; wait; wait; wait; lastinv; " 0.300000 0.177778 0.420000 0.444444 255 255 255 76 0
+touch_addbutton "duck" "gfx/buttons/duck" "+duck" 0.500000 0.844444 0.560000 0.977778 255 255 255 114 0
+touch_addbutton "slot1" "gfx/buttons/1" "slot1" 0.940000 0.311111 1.000000 0.444444 255 255 255 102 0
+touch_addbutton "slot2" "gfx/buttons/2" "slot2" 0.940000 0.444444 1.000000 0.577778 255 255 255 102 0
+touch_addbutton "slot3" "gfx/buttons/3" "slot3" 0.940000 0.577778 1.000000 0.711111 255 255 255 102 0
+touch_addbutton "jump" "gfx/buttons/jump" "+jump" 0.880000 0.755556 0.940000 0.888889 255 255 255 102 0
+touch_addbutton "ability_1" "gfx/buttons/1" "ability_1" 0.820000 0.177778 0.880000 0.311111 244 255 0 230 0
+touch_addbutton "inspect" "touch_default/map.tga" "inspect" 0.380000 0.888889 0.480000 0.977778 255 255 255 0 0
+touch_addbutton "rad" "touch_default/map.tga" "showvguimenu 38" 0.080000 0.888889 0.240000 0.977778 255 255 255 0 0
+touch_addbutton "scores" "gfx/buttons/score" "+showscores" 0.580000 0.844444 0.640000 0.977778 255 255 255 114 8
+touch_addbutton "lastinv" "gfx/buttons/lastinv" "lastinv" 0.660000 0.800000 0.740000 0.977778 255 255 255 89 0
+touch_addbutton "reload" "gfx/buttons/reload" "+reload" 0.760000 0.800000 0.840000 0.977778 255 255 255 89 0
+touch_addbutton "ability_2" "gfx/buttons/2" "ability_2" 0.840000 0.311111 0.900000 0.444444 244 0 178 230 0
+touch_addbutton "ability_3" "gfx/buttons/3" "ability_3" 0.860000 0.444444 0.920000 0.577778 184 3 102 230 0
+touch_addbutton "ability_4" "gfx/buttons/4" "ability_4" 0.800000 0.444444 0.860000 0.577778 0 164 255 230 0
+touch_addbutton "use" "gfx/buttons/use" "+use" 0.760000 0.266667 0.800000 0.355556 255 255 255 102 0
+touch_addbutton "bots" "touch_default/map.tga" "exec touch/bots/bots" 0.000000 0.000000 0.080000 0.222222 255 255 255 0 8
+touch_addbutton "attack" "gfx/buttons/attack" "+attack" 0.140000 0.022222 0.280000 0.333333 255 255 255 114 0
+touch_addbutton "buy" "touch_default/map.tga" "buy" 0.000000 0.288889 0.070000 0.644444 255 255 255 0 0

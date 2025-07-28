@@ -1,0 +1,11 @@
+-------------------
+Valorant - BIND
+Bomb Defusion
+-------------------
+
+Original map by: Riot Games
+Remade/Ported by: TorgalarBesT
+	
+Two sites. No middle. Gotta pick left or right.
+What’s it going to be then?
+Both offer direct paths for attackers and a pair of one-way teleporters make it easier to flank.
